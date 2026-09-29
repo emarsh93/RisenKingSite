@@ -5,142 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Risen King Games | Biblical Christian Mobile Games</title>
     <style>
-        /* Color Palette & Base Typography */
-        body { 
-            font-family: 'Georgia', serif; 
-            line-height: 1.8; 
-            margin: 0; 
-            padding: 40px 20px;
-            text-align: center; 
-            background-color: #fcfaf2; /* Egg-shell / Off-white */
-            color: #2b2b2b; 
-        }
-        
-        /* Container styling with Gold accents */
-        .wrapper {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            border: 3px solid #d4af37; /* Metallic Gold */
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-        }
-
-        /* Pure CSS Cross Icon Imagery */
-        .cross-icon {
-            position: relative;
-            width: 14px;
-            height: 60px;
-            background-color: #d4af37; /* Gold Cross */
-            margin: 20px auto 30px auto;
-            border-radius: 2px;
-        }
-        .cross-icon::after {
-            content: "";
-            position: absolute;
-            top: 15px;
-            left: -18px;
-            width: 50px;
-            height: 14px;
-            background-color: #d4af37; /* Gold Crossbar */
-            border-radius: 2px;
-        }
-
-        /* Typography styling using Crimson/Scarlet Red */
-        h1 { 
-            color: #990000; /* Crimson / Scarlet Red */
-            margin-bottom: 5px; 
-            font-size: 2.5em;
-            letter-spacing: 1px;
-        }
-        h2 { 
-            color: #990000; 
-            border-bottom: 2px solid #d4af37; 
-            padding-bottom: 8px;
-            margin-top: 40px;
-            font-size: 1.6em;
-        }
-        
-        .tagline {
-            font-style: italic;
-            color: #555555;
-            font-size: 1.1em;
-            margin-top: 0;
-            margin-bottom: 30px;
-        }
-
-        /* Badge for Free-to-Play games */
-        .badge {
-            background-color: #990000;
-            color: #fcfaf2;
-            padding: 4px 12px;
-            font-size: 0.85em;
-            font-weight: bold;
-            border-radius: 4px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            display: inline-block;
-            margin-bottom: 15px;
-        }
-
-        /* Helper class to center the 70% width music player */
-        .player-container {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-
-        footer { 
-            margin-top: 60px; 
-            font-size: 0.9em; 
-            color: #777777; 
-            border-top: 1px solid #e0decb;
-            padding-top: 20px;
-        }
+        body { font-family: 'Georgia', serif; line-height: 1.8; margin: 0; padding: 40px 20px; text-align: center; background-color: #fcfaf2; color: #2b2b2b; }
+        .wrapper { max-width: 800px; margin: 0 auto; background: #ffffff; padding: 40px; border-radius: 12px; border: 3px solid #d4af37; box-shadow: 0 4px 15px rgba(0,0,0,0.05); }
+        .cross-icon { position: relative; width: 14px; height: 60px; background-color: #d4af37; margin: 20px auto 30px auto; border-radius: 2px; }
+        .cross-icon::after { content: ""; position: absolute; top: 15px; left: -18px; width: 50px; height: 14px; background-color: #d4af37; border-radius: 2px; }
+        h1 { color: #990000; margin-bottom: 5px; font-size: 2.5em; letter-spacing: 1px; }
+        h2 { color: #990000; border-bottom: 2px solid #d4af37; padding-bottom: 8px; margin-top: 40px; font-size: 1.6em; }
+        h3 { color: #2b2b2b; font-size: 1.1em; margin-top: 20px; text-align: left; }
+        .tagline { font-style: italic; color: #555555; font-size: 1.1em; margin-top: 0; margin-bottom: 30px; }
+        .badge { background-color: #990000; color: #fcfaf2; padding: 4px 12px; font-size: 0.85em; font-weight: bold; border-radius: 4px; text-transform: uppercase; letter-spacing: 1px; display: inline-block; margin-bottom: 15px; }
+        .policy-text { text-align: left; font-size: 0.95em; color: #444444; }
+        .player-container { display: flex; justify-content: center; margin: 20px 0; }
+        footer { margin-top: 60px; font-size: 0.9em; color: #777777; border-top: 1px solid #e0decb; padding-top: 20px; }
     </style>
 </head>
 <body>
-
     <div class="wrapper">
-        <!-- Visual Anchor: Biblical Christian Imagery -->
         <div class="cross-icon" aria-hidden="true"></div>
-
         <header>
             <h1>Risen King Games</h1>
             <p class="tagline">Faith-Based & Biblical Mobile Experiences</p>
         </header>
-
         <main>
             <section>
                 <span class="badge">100% Free to Play</span>
-                <p>Welcome to <strong>Risen King Games</strong>. We are dedicated to developing high-quality, engaging, Biblical Christian-based mobile games and applications. Our mission is to provide meaningful experiences rooted in scripture that are entirely free-to-use and free-to-play for families everywhere.</p>
+                <p>Welcome to <strong>Risen King Games</strong>. We develop free, scripture-based mobile games and family applications.</p>
             </section>
-
-            <!-- PLAYLIST SECTION INSERTED HERE -->
             <section>
                 <h2>Listen to Our Worship Playlist</h2>
-                <p>Enjoy a collection of custom-curated worship music that inspires our development team.</p>
                 <div class="player-container">
-                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/playlist/0ImTNCVUppWafiInVSlMsL?utm_source=generator&theme=0&si=574fbf7a3a7343cb" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+                    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://spotify.com" width="70%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
                 </div>
             </section>
-
-            <section>
-                <h2>Our Mission & Apps</h2>
-                <p>Our upcoming interactive titles are built to bring the history, lessons, and truth of the Bible directly to your mobile devices. Keep an eye on our official storefront channels as we launch our titles natively on the Google Play Store.</p>
-            </section>
-            
-            <section>
-                <h2>Support & Contact</h2>
-                <p>Have questions, feedback, or support inquiries regarding our apps? Please reach out to us through our verified Google Play developer profile options.</p>
+            <section class="policy-text">
+                <h2>Privacy Policy</h2>
+                <p>Risen King Games provides applications as free tools. Third-party services like Google Play Services and Google AdMob may collect standard analytical or identifier data. We do not knowingly collect information from children and comply with family-friendly policies. Effective 2026.</p>
             </section>
         </main>
-
         <footer>
             <p>&copy; 2026 Risen King Games. All rights reserved.</p>
         </footer>
     </div>
-
 </body>
 </html>
